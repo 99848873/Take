@@ -23,8 +23,8 @@ public class Desktop extends JDesktopPane{
 	private InternalWindows confirmWindow;
 	private InternalWindows changeWindow;
 	private InternalWindows selectWindow;
-	private InternalWindows hostWindow;
-	private InternalWindows hostListWindow;
+//	private InternalWindows hostWindow;
+//	private InternalWindows hostListWindow;
 	private PlayArea playArea;
 	private boolean playAreaState = true;
 
@@ -163,7 +163,7 @@ public class Desktop extends JDesktopPane{
 	 * */
 	public void creatHost(String title) {
 		
-		hostWindow = new InternalWindows();
+//		hostWindow = new InternalWindows();
 		
 		
 	}
@@ -173,7 +173,7 @@ public class Desktop extends JDesktopPane{
 	 * */
 	public void creatHostList(String title) {
 		
-		hostListWindow = new InternalWindows();
+//		hostListWindow = new InternalWindows();
 	}
 
 	
