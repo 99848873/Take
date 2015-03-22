@@ -1,8 +1,8 @@
 package com.take6.system;
 
-import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.Socket;
+//import java.io.IOException;
+//import java.net.ServerSocket;
+//import java.net.Socket;
 
 /**
  * 创建主机
@@ -12,26 +12,26 @@ import java.net.Socket;
 */
 public class CreatHost {
 	
-	private ServerSocket server;
+//	private ServerSocket server;
 //	private Socket client;
 	
-	public void creat(){
-		
-		try {
-			
-			server = new ServerSocket(8998);
-			
-			while(true){
-//				client = server.accept();
-			}
-			
-		} catch (IOException e) {
-			
-			e.printStackTrace();
-			
-		}
-	
-	}
+//	public void creat(){
+//		
+//		try {
+//			
+////			server = new ServerSocket(8998);
+//			
+//			while(true){
+////				client = server.accept();
+//			}
+//			
+//		} catch (IOException e) {
+//			
+//			e.printStackTrace();
+//			
+//		}
+//	
+//	}
 	
 //	private class SocketThread implements Runnable{
 //		
