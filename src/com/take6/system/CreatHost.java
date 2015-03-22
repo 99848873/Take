@@ -13,7 +13,7 @@ import java.net.Socket;
 public class CreatHost {
 	
 	private ServerSocket server;
-	private Socket client;
+//	private Socket client;
 	
 	public void creat(){
 		
@@ -22,7 +22,7 @@ public class CreatHost {
 			server = new ServerSocket(8998);
 			
 			while(true){
-				client = server.accept();
+//				client = server.accept();
 			}
 			
 		} catch (IOException e) {
