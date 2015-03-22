@@ -109,7 +109,7 @@ public class MainWindow extends JFrame{
 		JRadioButtonMenuItem musicoption = new JRadioButtonMenuItem("关闭背景音乐");
 		musicoption.setSelected(true);
 		musicoption.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_M,InputEvent.CTRL_MASK));
-//		musicoption.addItemListener(new MusicSelectAction(musicoption));
+		musicoption.addItemListener(new MusicSelectAction(musicoption));
 		backmusic.add(musicoption);	
 		
 		JMenuItem changeUserInfo = new JMenuItem("修改用户信息");
@@ -171,7 +171,7 @@ public class MainWindow extends JFrame{
 	/**修改界面皮肤*/
 	private void setLookAndFeel() {
 		try{
-			UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
+			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		}catch (Exception e){
 			e.printStackTrace();
 		}
